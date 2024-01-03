@@ -1,0 +1,163 @@
+.skills_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.skills_container h1{
+    color: #ee436a;
+    margin: 50px 0 50px 0;
+    font-weight: bolder;
+    font-family: Popins,sans-serif,"Segoe UI";
+}
+.skills_container .row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.skill {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 0 20px 0;
+}
+.skill .name_and_percentage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.name_and_percentage p {
+    color: #fff;
+    font-family: Popins,sans-serif,"Segoe UI";
+    font-weight: 600;
+    font-size: 16px;
+}
+.skill .progress{
+    width: 100%;
+    height: 10px;
+}
+.skill .html_bar{
+    width: 90%;
+    background-color: #FF5225;
+    animation:html_bar 3s;
+}
+@keyframes html_bar {
+    from { width: 0 }
+    to   { width: 90% }
+}
+
+.skill .css_bar{
+    width: 90%;
+    background-color: #0974BC;
+    animation:css_bar 3s;
+}
+@keyframes css_bar {
+    from { width: 0 }
+    to   { width: 90% }
+}
+
+.skill .js_bar{
+    width: 75%;
+    background-color: #F3DD55;
+    animation:js_bar 3s;
+}
+@keyframes js_bar {
+    from { width: 0 }
+    to   { width: 75% }
+}
+
+.skill .react_bar{
+    width: 50%;
+    background-color: #66DBFB;
+    animation:react_bar 3s;
+}
+@keyframes react_bar {
+    from { width: 0 }
+    to   { width: 50% }
+}
+.skill .bootstrap_bar{
+    width: 90%;
+    background-color: #8210F5;
+    animation:bootstrap_bar 3s;
+}
+@keyframes bootstrap_bar {
+    from { width: 0 }
+    to   { width: 90% }
+}
+.skill .angular_bar{
+    width: 50%;
+    background-color: #D6032E;
+    animation:angular_bar 3s;
+}
+@keyframes angular_bar {
+    from { width: 0 }
+    to   { width: 50% }
+}
+.skill .figma_bar{
+    width: 70%;
+    background-color: #F35424;
+    animation: figma_bar 3s;
+}
+@keyframes figma_bar {
+    from { width: 0 }
+    to   { width: 70% }
+}
+.skill .node_bar{
+    width: 30%;
+    background-color: #5A9754;
+    animation: node_bar 3s;
+}
+@keyframes node_bar {
+    from { width: 0 }
+    to   { width: 30% }
+}
+
+.skill .mongodb_bar{
+    width: 30%;
+    background-color: #08EE69;
+    animation: mongodb_bar 3s;
+}
+@keyframes mongodb_bar {
+    from { width: 0 }
+    to   { width: 30% }
+}
+.skill .mysql_bar{
+    width: 50%;
+    background-color: #086690;
+    animation: mysql_bar 3s;
+}
+@keyframes mysql_bar {
+    from { width: 0 }
+    to   { width: 50% }
+}
+.skill .php_bar{
+    width: 50%;
+    background-color: #556096;
+    animation: php_bar 3s;
+}
+@keyframes php_bar {
+    from { width: 0 }
+    to   { width: 50% }
+}
+
+.skill .github_bar{
+    width: 50%;
+    background-color: #283344;
+    animation: github_bar 3s;
+}
+@keyframes github_bar {
+    from { width: 0 }
+    to   { width: 50% }
+}

@@ -1,0 +1,74 @@
+.project_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 100px auto 100px auto;
+}
+.project_container h1{
+    color: #ee436a;
+    margin: 50px 0 50px 0;
+    font-weight: bolder;
+    font-family: Popins,sans-serif,"Segoe UI";
+}
+
+.project_container .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project_container .container .project_card{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #1A1A29;
+    color: #fff;
+    border: 1px solid #181824;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+}
+.project_card .project_links{
+    width: 100%;
+    height: 100%;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project_card h4{
+    padding :5px;
+    text-align: start;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ee436a;
+}
+.project_card p{
+    text-align: justify;
+    padding: 5px;
+}
+
+.project_card a{
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    background-color: #ee436a;
+    color: #fff;
+    padding: 10px 0 10px 0;
+    font-family: Popins,sans-serif,"Segoe UI";
+    font-weight: bold;
+
+    border-radius: 3px;
+}
+.project_container .container .project_card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    border-bottom: 1px solid rgba(8, 8, 8, 0.6);
+}

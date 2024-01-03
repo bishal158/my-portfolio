@@ -1,0 +1,56 @@
+.about-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    margin-top: 45px;
+}
+.about-container h1{
+    color: #ee436a;
+    font-size: 45px;
+    font-family: Popins,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+.about ul li{
+    color: #fff;
+    font-family: Popins,sans-serif;
+    margin: 5px;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: justify;
+    list-style: none;
+    padding: 10px;
+}
+.about-container .links{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+.about-container .links button{
+    width: 200px;
+    padding: 10px 0 10px 0;
+    margin: 10px 25px 5px 0;
+    text-decoration: none;
+    background-color: #ee436a;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-family: Popins, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.about-container .links button:hover{
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.02);
+    box-shadow: rgb(238, 67, 106) -10px 25px 50px -12px;
+}
