@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./styles/Hero.css";
 import { Link } from "react-scroll";
 
-function Hero() {
+export const Hero = () => {
   return (
     <div className={"container-fluid hero-container mb-4"} id="hero">
       <div className="row">
@@ -106,6 +106,4 @@ function Hero() {
       </div>
     </div>
   );
-}
-
-export default Hero;
+};

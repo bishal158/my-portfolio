@@ -3,7 +3,7 @@ import Sheet from "react-modal-sheet";
 import { useEffect, useState } from "react";
 import "./styles/Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-function Header() {
+export const Header = () => {
   const [isOpen, setOpen] = useState(false);
   const [top, setTop] = useState(true);
   useEffect(() => {
@@ -185,6 +185,4 @@ function Header() {
       </Sheet>
     </>
   );
-}
-
-export default Header;
+};

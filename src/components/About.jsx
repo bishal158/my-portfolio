@@ -5,7 +5,7 @@ import "./styles/About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Resume from "../assets/Mafuj Ahmed Bishal.pdf";
 import { Link } from "react-scroll";
-function About() {
+export const About = () => {
   return (
     <div className={"container-fluid mt-3"}>
       <div className={"container about-container"} id="about">
@@ -71,6 +71,4 @@ function About() {
       </div>
     </div>
   );
-}
-
-export default About;
+};

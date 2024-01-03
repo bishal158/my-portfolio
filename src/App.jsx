@@ -1,7 +1,7 @@
 import "./App.css";
-import Hero from "./components/Hero";
-import Header from "./components/header";
-import About from "./components/About.jsx";
+import { Hero } from "./components/Hero.jsx";
+import { Header } from "./components/header.jsx";
+import { About } from "./components/About.jsx";
 import { EducationAndExperience } from "./components/EducationAndExperience.jsx";
 import { Skills } from "./components/Skills.jsx";
 import { Projects } from "./components/Projects.jsx";
